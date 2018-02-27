@@ -7,21 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041BB92F1F82F46D007E234D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BB92E1F82F46D007E234D /* AuthService.swift */; };
+		042C20A22034FC8500C76F8A /* AgendaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C20A12034FC8500C76F8A /* AgendaTableViewCell.swift */; };
+		042C20A4203503DD00C76F8A /* AgendaPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C20A3203503DD00C76F8A /* AgendaPost.swift */; };
+		042C20A9203B94D200C76F8A /* AddAgendaEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C20A8203B94D200C76F8A /* AddAgendaEntryViewController.swift */; };
+		043C1CCB203E290C0072BD26 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C1CCA203E290C0072BD26 /* AddTaskViewController.swift */; };
+		044A925A1FB3A42500060290 /* AgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A92591FB3A42500060290 /* AgendaViewController.swift */; };
 		045011F11F745D2900794B40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045011F01F745D2900794B40 /* AppDelegate.swift */; };
-		045011F31F745D2900794B40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045011F21F745D2900794B40 /* ViewController.swift */; };
+		045011F31F745D2900794B40 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045011F21F745D2900794B40 /* HomeViewController.swift */; };
 		045011F61F745D2900794B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045011F41F745D2900794B40 /* Main.storyboard */; };
 		045011F81F745D2900794B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045011F71F745D2900794B40 /* Assets.xcassets */; };
 		045011FB1F745D2900794B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045011F91F745D2900794B40 /* LaunchScreen.storyboard */; };
+		045131B61F8032A60045A9AB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045131B51F8032A60045A9AB /* DataService.swift */; };
+		045131B81F8042CC0045A9AB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045131B71F8042CC0045A9AB /* Constants.swift */; };
+		045FA55A1F82CAAD00BB1251 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 045FA5591F82C97400BB1251 /* GoogleService-Info.plist */; };
+		048CCE031F748073006D02B3 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CCE021F748073006D02B3 /* GradientButton.swift */; };
+		048CCE051F748241006D02B3 /* GradientSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CCE041F748241006D02B3 /* GradientSystem.swift */; };
+		048CCE091F75BA07006D02B3 /* EmptyGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CCE081F75BA07006D02B3 /* EmptyGradientButton.swift */; };
+		048CCE0B1F76A800006D02B3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CCE0A1F76A800006D02B3 /* SignInViewController.swift */; };
+		048CCE0D1F76A8B4006D02B3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CCE0C1F76A8B4006D02B3 /* SignUpViewController.swift */; };
+		048CCE0F1F76ACED006D02B3 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CCE0E1F76ACED006D02B3 /* GradientView.swift */; };
+		048CCE111F76B451006D02B3 /* SignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CCE101F76B451006D02B3 /* SignView.swift */; };
+		048CCE131F770274006D02B3 /* SignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CCE121F770274006D02B3 /* SignTextField.swift */; };
+		048DC715202BBCAF0041F411 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DC714202BBCAF0041F411 /* MainViewController.swift */; };
+		048DC717202D1B360041F411 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DC716202D1B360041F411 /* ExpensesViewController.swift */; };
+		048DC719202D1B490041F411 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DC718202D1B490041F411 /* ReportsViewController.swift */; };
+		048DC71B202D1B840041F411 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DC71A202D1B840041F411 /* ProfileViewController.swift */; };
+		04C7837E203E19B300A50374 /* AddAgendaTextFieldUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7837D203E19B300A50374 /* AddAgendaTextFieldUI.swift */; };
+		04EC00A8203DF18C00B219D1 /* TasksTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC00A7203DF18C00B219D1 /* TasksTableviewCell.swift */; };
+		04EC00AA203E06BF00B219D1 /* TableViewCellUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC00A9203E06BF00B219D1 /* TableViewCellUI.swift */; };
+		04EC00AC203E096A00B219D1 /* RoundedUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC00AB203E096A00B219D1 /* RoundedUITableView.swift */; };
+		C7C7014ED8BBFB12319BD818 /* Pods_AppQuake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B3E026700EC814F2E827C5 /* Pods_AppQuake.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041BB92E1F82F46D007E234D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		042C20A12034FC8500C76F8A /* AgendaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaTableViewCell.swift; sourceTree = "<group>"; };
+		042C20A3203503DD00C76F8A /* AgendaPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaPost.swift; sourceTree = "<group>"; };
+		042C20A8203B94D200C76F8A /* AddAgendaEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAgendaEntryViewController.swift; sourceTree = "<group>"; };
+		043C1CCA203E290C0072BD26 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		043DF3831FCA23C30049BF54 /* Objc-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc-Bridge-Header.h"; sourceTree = "<group>"; };
+		044A92591FB3A42500060290 /* AgendaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaViewController.swift; sourceTree = "<group>"; };
 		045011ED1F745D2900794B40 /* AppQuake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppQuake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045011F01F745D2900794B40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		045011F21F745D2900794B40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		045011F21F745D2900794B40 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		045011F51F745D2900794B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		045011F71F745D2900794B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045011FA1F745D2900794B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045011FC1F745D2900794B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045131B51F8032A60045A9AB /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		045131B71F8042CC0045A9AB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		045FA5591F82C97400BB1251 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		048CCDF31F74796A006D02B3 /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
+		048CCDF41F74796A006D02B3 /* Ubuntu-C.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-C.ttf"; sourceTree = "<group>"; };
+		048CCDF51F74796A006D02B3 /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-R.ttf"; sourceTree = "<group>"; };
+		048CCDF61F74796A006D02B3 /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-RI.ttf"; sourceTree = "<group>"; };
+		048CCDF71F74796A006D02B3 /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BI.ttf"; sourceTree = "<group>"; };
+		048CCDF81F74796B006D02B3 /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LI.ttf"; sourceTree = "<group>"; };
+		048CCDF91F74796B006D02B3 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		048CCDFA1F74796B006D02B3 /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MI.ttf"; sourceTree = "<group>"; };
+		048CCDFB1F74796B006D02B3 /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
+		048CCDFC1F74796B006D02B3 /* Ubuntu-L.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-L.ttf"; sourceTree = "<group>"; };
+		048CCDFD1F74796B006D02B3 /* Ubuntu-M.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		048CCDFE1F74796C006D02B3 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		048CCDFF1F74796C006D02B3 /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-B.ttf"; sourceTree = "<group>"; };
+		048CCE021F748073006D02B3 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		048CCE041F748241006D02B3 /* GradientSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSystem.swift; sourceTree = "<group>"; };
+		048CCE081F75BA07006D02B3 /* EmptyGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyGradientButton.swift; sourceTree = "<group>"; };
+		048CCE0A1F76A800006D02B3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		048CCE0C1F76A8B4006D02B3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		048CCE0E1F76ACED006D02B3 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		048CCE101F76B451006D02B3 /* SignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignView.swift; sourceTree = "<group>"; };
+		048CCE121F770274006D02B3 /* SignTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTextField.swift; sourceTree = "<group>"; };
+		048DC714202BBCAF0041F411 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		048DC716202D1B360041F411 /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		048DC718202D1B490041F411 /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		048DC71A202D1B840041F411 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		04C7837D203E19B300A50374 /* AddAgendaTextFieldUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAgendaTextFieldUI.swift; sourceTree = "<group>"; };
+		04EC00A7203DF18C00B219D1 /* TasksTableviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableviewCell.swift; sourceTree = "<group>"; };
+		04EC00A9203E06BF00B219D1 /* TableViewCellUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellUI.swift; sourceTree = "<group>"; };
+		04EC00AB203E096A00B219D1 /* RoundedUITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedUITableView.swift; sourceTree = "<group>"; };
+		2475604D566EBE8CBEA04FB6 /* Pods-AppQuake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppQuake.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppQuake/Pods-AppQuake.release.xcconfig"; sourceTree = "<group>"; };
+		5FAE3B8EFD9AE3B811B36D41 /* Pods-AppQuake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppQuake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppQuake/Pods-AppQuake.debug.xcconfig"; sourceTree = "<group>"; };
+		64B3E026700EC814F2E827C5 /* Pods_AppQuake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppQuake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +97,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C7014ED8BBFB12319BD818 /* Pods_AppQuake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042C20A02034FC4300C76F8A /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				042C20A12034FC8500C76F8A /* AgendaTableViewCell.swift */,
+				04EC00A7203DF18C00B219D1 /* TasksTableviewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		042C20A5203B928900C76F8A /* Master ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				048CCE0A1F76A800006D02B3 /* SignInViewController.swift */,
+				048CCE0C1F76A8B4006D02B3 /* SignUpViewController.swift */,
+				044A92591FB3A42500060290 /* AgendaViewController.swift */,
+				048DC716202D1B360041F411 /* ExpensesViewController.swift */,
+				048DC718202D1B490041F411 /* ReportsViewController.swift */,
+				048DC71A202D1B840041F411 /* ProfileViewController.swift */,
+			);
+			path = "Master ViewControllers";
+			sourceTree = "<group>";
+		};
+		042C20A6203B92D400C76F8A /* Slave ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				042C20A8203B94D200C76F8A /* AddAgendaEntryViewController.swift */,
+				043C1CCA203E290C0072BD26 /* AddTaskViewController.swift */,
+			);
+			path = "Slave ViewControllers";
+			sourceTree = "<group>";
+		};
+		042C20A7203B93D600C76F8A /* Main ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				045011F21F745D2900794B40 /* HomeViewController.swift */,
+				048DC714202BBCAF0041F411 /* MainViewController.swift */,
+			);
+			path = "Main ViewController";
+			sourceTree = "<group>";
+		};
 		045011E41F745D2900794B40 = {
 			isa = PBXGroup;
 			children = (
 				045011EF1F745D2900794B40 /* AppQuake */,
 				045011EE1F745D2900794B40 /* Products */,
+				8EEE0353B8369EF3C128425D /* Pods */,
+				84272FC231F44702CEA846F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +165,110 @@
 		045011EF1F745D2900794B40 /* AppQuake */ = {
 			isa = PBXGroup;
 			children = (
+				042C20A02034FC4300C76F8A /* TableViewCells */,
+				048CCDF11F746DE9006D02B3 /* Fonts */,
+				048CCDF01F746DE2006D02B3 /* View */,
+				048CCDEF1F746DDD006D02B3 /* Model */,
+				048CCDEE1F746D77006D02B3 /* Controller */,
+				048CCDED1F746D6F006D02B3 /* Firebase */,
+				048CCDEC1F746D66006D02B3 /* UI */,
 				045011F01F745D2900794B40 /* AppDelegate.swift */,
-				045011F21F745D2900794B40 /* ViewController.swift */,
 				045011F41F745D2900794B40 /* Main.storyboard */,
 				045011F71F745D2900794B40 /* Assets.xcassets */,
 				045011F91F745D2900794B40 /* LaunchScreen.storyboard */,
 				045011FC1F745D2900794B40 /* Info.plist */,
+				045131B71F8042CC0045A9AB /* Constants.swift */,
+				045FA5591F82C97400BB1251 /* GoogleService-Info.plist */,
+				043DF3831FCA23C30049BF54 /* Objc-Bridge-Header.h */,
 			);
 			path = AppQuake;
+			sourceTree = "<group>";
+		};
+		048CCDEC1F746D66006D02B3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				048CCE021F748073006D02B3 /* GradientButton.swift */,
+				048CCE041F748241006D02B3 /* GradientSystem.swift */,
+				048CCE081F75BA07006D02B3 /* EmptyGradientButton.swift */,
+				048CCE0E1F76ACED006D02B3 /* GradientView.swift */,
+				048CCE101F76B451006D02B3 /* SignView.swift */,
+				048CCE121F770274006D02B3 /* SignTextField.swift */,
+				04EC00A9203E06BF00B219D1 /* TableViewCellUI.swift */,
+				04EC00AB203E096A00B219D1 /* RoundedUITableView.swift */,
+				04C7837D203E19B300A50374 /* AddAgendaTextFieldUI.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		048CCDED1F746D6F006D02B3 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				045131B51F8032A60045A9AB /* DataService.swift */,
+				041BB92E1F82F46D007E234D /* AuthService.swift */,
+				042C20A3203503DD00C76F8A /* AgendaPost.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		048CCDEE1F746D77006D02B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				042C20A7203B93D600C76F8A /* Main ViewController */,
+				042C20A5203B928900C76F8A /* Master ViewControllers */,
+				042C20A6203B92D400C76F8A /* Slave ViewControllers */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		048CCDEF1F746DDD006D02B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		048CCDF01F746DE2006D02B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		048CCDF11F746DE9006D02B3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				048CCDF91F74796B006D02B3 /* Ubuntu-B.ttf */,
+				048CCDF71F74796A006D02B3 /* Ubuntu-BI.ttf */,
+				048CCDF41F74796A006D02B3 /* Ubuntu-C.ttf */,
+				048CCDFC1F74796B006D02B3 /* Ubuntu-L.ttf */,
+				048CCDF81F74796B006D02B3 /* Ubuntu-LI.ttf */,
+				048CCDFD1F74796B006D02B3 /* Ubuntu-M.ttf */,
+				048CCDFA1F74796B006D02B3 /* Ubuntu-MI.ttf */,
+				048CCDFE1F74796C006D02B3 /* Ubuntu-R.ttf */,
+				048CCDF61F74796A006D02B3 /* Ubuntu-RI.ttf */,
+				048CCDFF1F74796C006D02B3 /* UbuntuMono-B.ttf */,
+				048CCDF31F74796A006D02B3 /* UbuntuMono-BI.ttf */,
+				048CCDF51F74796A006D02B3 /* UbuntuMono-R.ttf */,
+				048CCDFB1F74796B006D02B3 /* UbuntuMono-RI.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		84272FC231F44702CEA846F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64B3E026700EC814F2E827C5 /* Pods_AppQuake.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EEE0353B8369EF3C128425D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FAE3B8EFD9AE3B811B36D41 /* Pods-AppQuake.debug.xcconfig */,
+				2475604D566EBE8CBEA04FB6 /* Pods-AppQuake.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045011FF1F745D2900794B40 /* Build configuration list for PBXNativeTarget "AppQuake" */;
 			buildPhases = (
+				CFBAE074A81C291A8E6785E2 /* [CP] Check Pods Manifest.lock */,
 				045011E91F745D2900794B40 /* Sources */,
 				045011EA1F745D2900794B40 /* Frameworks */,
 				045011EB1F745D2900794B40 /* Resources */,
+				E0EAD6C5C201DFAA8047C45C /* [CP] Embed Pods Frameworks */,
+				E8C627B3EC9AE99636700F5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				045011FB1F745D2900794B40 /* LaunchScreen.storyboard in Resources */,
+				045FA55A1F82CAAD00BB1251 /* GoogleService-Info.plist in Resources */,
 				045011F81F745D2900794B40 /* Assets.xcassets in Resources */,
 				045011F61F745D2900794B40 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +342,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CFBAE074A81C291A8E6785E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppQuake-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0EAD6C5C201DFAA8047C45C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppQuake/Pods-AppQuake-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppQuake/Pods-AppQuake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8C627B3EC9AE99636700F5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppQuake/Pods-AppQuake-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		045011E91F745D2900794B40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045011F31F745D2900794B40 /* ViewController.swift in Sources */,
+				048DC719202D1B490041F411 /* ReportsViewController.swift in Sources */,
+				048CCE111F76B451006D02B3 /* SignView.swift in Sources */,
+				04C7837E203E19B300A50374 /* AddAgendaTextFieldUI.swift in Sources */,
+				048DC717202D1B360041F411 /* ExpensesViewController.swift in Sources */,
+				048CCE091F75BA07006D02B3 /* EmptyGradientButton.swift in Sources */,
+				048CCE0D1F76A8B4006D02B3 /* SignUpViewController.swift in Sources */,
+				042C20A4203503DD00C76F8A /* AgendaPost.swift in Sources */,
+				045011F31F745D2900794B40 /* HomeViewController.swift in Sources */,
+				048DC71B202D1B840041F411 /* ProfileViewController.swift in Sources */,
+				04EC00A8203DF18C00B219D1 /* TasksTableviewCell.swift in Sources */,
+				048CCE0B1F76A800006D02B3 /* SignInViewController.swift in Sources */,
+				042C20A9203B94D200C76F8A /* AddAgendaEntryViewController.swift in Sources */,
+				045131B61F8032A60045A9AB /* DataService.swift in Sources */,
+				041BB92F1F82F46D007E234D /* AuthService.swift in Sources */,
+				048CCE031F748073006D02B3 /* GradientButton.swift in Sources */,
+				048CCE131F770274006D02B3 /* SignTextField.swift in Sources */,
+				048DC715202BBCAF0041F411 /* MainViewController.swift in Sources */,
+				048CCE051F748241006D02B3 /* GradientSystem.swift in Sources */,
+				042C20A22034FC8500C76F8A /* AgendaTableViewCell.swift in Sources */,
+				048CCE0F1F76ACED006D02B3 /* GradientView.swift in Sources */,
+				04EC00AA203E06BF00B219D1 /* TableViewCellUI.swift in Sources */,
 				045011F11F745D2900794B40 /* AppDelegate.swift in Sources */,
+				04EC00AC203E096A00B219D1 /* RoundedUITableView.swift in Sources */,
+				044A925A1FB3A42500060290 /* AgendaViewController.swift in Sources */,
+				045131B81F8042CC0045A9AB /* Constants.swift in Sources */,
+				043C1CCB203E290C0072BD26 /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +565,7 @@
 		};
 		045012001F745D2900794B40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FAE3B8EFD9AE3B811B36D41 /* Pods-AppQuake.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +581,7 @@
 		};
 		045012011F745D2900794B40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2475604D566EBE8CBEA04FB6 /* Pods-AppQuake.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
