@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 class AddAgendaEntryViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
     // DEVSCORCH: IBOutlets
@@ -72,4 +74,25 @@ class AddAgendaEntryViewController: UIViewController, UITableViewDelegate, UITab
         print(tasksArray)
     }
     
+    // DAVIDVPE: Segue customization
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "openAddTask" {
+            //It means that is trying to open the Add Task ViewController
+            //I added the identifier to the Main.storyabord
+            
+            if let addTaskVC = segue.destination as? AddTaskViewController {
+                addTaskVC.delegate = self
+            }
+        }
+    }
+    
+}
+
+extension AddAgendaEntryViewController: AddTaskViewControllerDelegate {
+    func didAddNewTask() {
+        //Need to reassign the tasksArray value to tasks because they're not pointers but an static copy
+        tasks = tasksArray
+        tasksTableView.reloadData()
+    }
 }

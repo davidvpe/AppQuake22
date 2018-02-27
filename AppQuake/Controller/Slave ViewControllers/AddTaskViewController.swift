@@ -8,12 +8,17 @@
 
 import UIKit
 
+protocol AddTaskViewControllerDelegate: class {
+    func didAddNewTask()
+}
+
 class AddTaskViewController: UIViewController {
 
     // DEVSCORCH: IBOutlets
     
     @IBOutlet weak var addTaskTextfield: AddAgendaTextFieldUI!
     
+    weak var delegate: AddTaskViewControllerDelegate? = nil
     
     // DEVSCORCH: Variables
     
@@ -39,14 +44,9 @@ class AddTaskViewController: UIViewController {
             showAlertMessage("Oops", message: "The textfield should contain a value. Please try again")
         } else {
             tasksArray.append(newTask)
-            print(tasksArray)
-           
-            let sb = UIStoryboard(name: "Main", bundle: nil)
-            let vc = sb.instantiateViewController(withIdentifier: "AddAgendaEntryViewController")
-            vc.viewDidLoad()
-            
-            
-            self.dismiss(animated: true, completion: nil)
+            self.dismiss(animated: true, completion: {
+                self.delegate?.didAddNewTask()
+            })
         }
     }
     
@@ -66,5 +66,7 @@ class AddTaskViewController: UIViewController {
         alertController.addAction(okAction)
         self.present(alertController, animated: true, completion: nil)
     }
+    
+    
 
 }
